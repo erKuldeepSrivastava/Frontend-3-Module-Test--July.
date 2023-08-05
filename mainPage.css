@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+}
+.main-part1 {
+  background-color: #000;
+  color: #b8bccc87;
+}
+.main-part1 h3 {
+  padding: 1rem 2rem;
+}
+.main-part1 h3 span {
+  color: #fff;
+}
+.main-part1 ul {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+  list-style: none;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  color: #b8bccc87;
+}
+.main-part1 span span:nth-child(1) {
+  color: #fff;
+}
+.main-part2 {
+  background-color: #575a85;
+  padding: 1rem 2.5rem;
+  width: 100%;
+}
+.main-part2 h1 {
+  color: #b8bccc;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.main-part2 iframe {
+  width: 80rem;
+  height: 30rem;
+}
+.main-part3 {
+  background-color: #000;
+  padding: 1.5rem 2rem;
+}
+.main-part3 span span:nth-child(1) {
+  color: white;
+}
+.part1 h1 {
+  color: #b8bccc;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.part1 .spans {
+  color: #b8bccc87;
+  display: block;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.part2 {
+  color: #b8bccc;
+}
+.part2 h1 {
+  color: #b8bccc;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.part2 #searchBar {
+  border: 1px solid #575a85;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+#searchBar span {
+  color: #b8bccc;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+}
+#search {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: #b8bccc;
+  font-size: 1rem;
+}
+#search:focus {
+  outline: none;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2rem 5rem;
+  padding: 1rem 0;
+}
+.card {
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #575a85;
+  width: 30rem;
+}
+
+.card span {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.card span span {
+  display: inline-block;
+}
